@@ -120,7 +120,9 @@ import { Client } from "@stomp/stompjs";
 
 // const ENDPOINT = "http://localhost:8080/ws"; // Spring Boot endpoint
 
-const ENDPOINT = "wss://scm20.space/ws"; // ✅ Native WebSocket URL
+// const ENDPOINT = "wss://scm20.space/ws"; 
+
+const ENDPOINT = "wss://whatsapp-server-t4hn.onrender.com/ws"; // ✅ Native WebSocket URL
 
 const ChatContext = createContext();
 
